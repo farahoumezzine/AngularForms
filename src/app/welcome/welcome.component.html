@@ -1,0 +1,22 @@
+<div class="welcome-container">
+    <div class="content">
+        <h1>Welcome to Forms Demo</h1>
+        <p class="subtitle">Explore Different Form Approaches in Angular</p>
+        
+        <div class="cards-container">
+            <div class="card" (click)="navigate('/template-form')">
+                <i class="zmdi zmdi-format-list-bulleted"></i>
+                <h2>Template Driven</h2>
+                <p>Simple forms with two-way binding and template-based validation</p>
+                <button routerLink="/template-form">Try Template Form</button>
+            </div>
+
+            <div class="card" (click)="navigate('/reactive-form')">
+                <i class="zmdi zmdi-code"></i>
+                <h2>Reactive Form</h2>
+                <p>Complex forms with dynamic validation and form controls</p>
+                <button routerLink="/reactive-form">Try Reactive Form</button>
+            </div>
+        </div>
+    </div>
+  </div>
